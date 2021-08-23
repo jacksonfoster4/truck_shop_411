@@ -1,6 +1,9 @@
 <script type="text/x-handlebars" data-template-name="list/topic-list-item.hbr">
   document.addEventListener("DOMContentLoaded", (e) => {
-    document.querySelector("#main-outlet .container").remove()
+    let main = document.querySelector("#main-outlet");
+    while(main.firstChild){
+      main.removeChild(main.firstChild)
+    }
   })
 </script>
 <h1>Hello World!</h1>
