@@ -2,7 +2,7 @@
   document.addEventListener("load", (e) => {
     let interval = setInterval(() => {
           let main = document.querySelector("#main-outlet");
-          if(main){
+          if(main && location.pathname == "/"){
             setup()
             clearInterval(interval)
           }
