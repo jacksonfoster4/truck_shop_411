@@ -1,8 +1,17 @@
 <script>
   document.addEventListener("load", (e) => {
-    let main = document.querySelector("#main-outlet");
-    while(main.firstChild){
-      main.removeChild(main.firstChild)
+    let interval = setInterval(() => {
+          let main = document.querySelector("#main-outlet");
+          if(main){
+            setup()
+            clearInterval(interval)
+          }
+    }, 500)
+    function setup(){
+      let main = document.querySelector("#main-outlet");
+      while(main.firstChild){
+        main.removeChild(main.firstChild)
+      }
     }
   })
 </script>
