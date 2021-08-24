@@ -8,7 +8,10 @@
     })
 
     function setupRibbon(topics){
-
+      let tickerTemplate = (title) => `<div class="ticker-item">${title}</div>`
+      topics.map(topic => {
+          document.querySelector("#ticker-move").innerHTML += tickerTemplate(topic.title)
+      })
     }
 </script>
 <style>
