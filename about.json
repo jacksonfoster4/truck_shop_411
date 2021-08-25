@@ -7,13 +7,13 @@
    },
    "color_schemes": {
        "Truck Shop 411": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "tertiary": "#de3152",
-          "quaternary": "#be1e2d",
-          "header_background": "#ffffff",
-          "header_primary": "#000",
-          "highlight": "#3369FF"
+          "primary": "000000",
+          "secondary": "ffffff",
+          "tertiary": "de3152",
+          "quaternary": "be1e2d",
+          "header_background": "ffffff",
+          "header_primary": "000000",
+          "highlight": "3369FF"
         }
     }
 }
