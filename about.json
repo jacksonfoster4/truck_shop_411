@@ -6,15 +6,15 @@
         "asset-variable": "assets/background.svg"
    },
    "color_schemes": {
-       "color scheme name": {
-          "primary": "#000",
-          "secondary": "#fff",
+       "Truck Shop 411": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
           "tertiary": "#de3152",
           "quaternary": "#be1e2d",
-          "header_background": "#fff",
+          "header_background": "#ffffff",
           "header_primary": "#000",
            "highlight": "#3369FF",
-          "danger": "#b12",
+          "danger": "#be1e2d",
           "success":" #3d854d",
           "love": "#9D256B"
         }
