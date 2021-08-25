@@ -13,10 +13,7 @@
           "quaternary": "#be1e2d",
           "header_background": "#ffffff",
           "header_primary": "#000",
-           "highlight": "#3369FF",
-          "danger": "#be1e2d",
-          "success":" #3d854d",
-          "love": "#9D256B"
+          "highlight": "#3369FF",
         }
     }
 }
